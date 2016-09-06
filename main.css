@@ -1,0 +1,48 @@
+* {
+  /*border: 1px pink dashed;*/
+}
+
+body {
+  background-color: #d3e0db;
+  background-image: url("unsplash-platefood.jpg");
+  background-size: 100%;
+}
+
+.navbar {
+    opacity:0.6;
+}
+
+.navbar-default .navbar-brand {
+  color: #5e605e;
+}
+
+/*body img {
+  opacity: 0.2;
+}*/
+
+h1, h2, h3, h4 {
+    font-family: essays1743;
+    color: gray;
+
+}
+
+@font-face {
+    font-family: essays1743;
+    src: url(Essays1743.woff);
+}
+
+.main-content {
+  width: 40%;
+  height: 400px;
+  margin: 50px auto;
+  text-align: center;
+
+  border-radius: 5px;
+
+
+}
+
+.navbar-brand {
+  font-family: essays1743;
+  font-size: 60px;
+}
